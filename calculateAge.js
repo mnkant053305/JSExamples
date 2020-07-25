@@ -1,4 +1,4 @@
-var currentYear = new Date().getFullYear(); // get the current year
+var currentYear = new Date().getFullYear(); // get the current year using date function
 var myBirthYear = window.prompt('Please enter your birth year : '); // ask the user to enter the year of birth
 
 // calcuate and display age of the user
