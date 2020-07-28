@@ -3,7 +3,7 @@ console.log('1 refers to --> ' + true);
 
 console.log('\n');
 
-// logical AND operator (&&)
+// logical AND Operator (&&)
 for (var i = 0; i < 2; i++) {
     for (var j = 0; j < 2; j++) {
         console.log('Output of ' + i + ' && ' + j + ' : ' + (i && j));
@@ -12,7 +12,7 @@ for (var i = 0; i < 2; i++) {
 
 console.log('\n');
 
-// logical OR operator (||)
+// logical OR Operator (||)
 for (var i = 0; i < 2; i++) {
     for (var j = 0; j < 2; j++) {
         console.log('Output of ' + i + ' || ' + j + ' : ' + (i || j));
@@ -21,7 +21,7 @@ for (var i = 0; i < 2; i++) {
 
 console.log('\n');
 
-// logical NOT operator
+// logical NOT Operator
 for (var i = 0; i < 2; i++) {
     console.log('Output of !' + i + ' : ' + !(i));
 }
