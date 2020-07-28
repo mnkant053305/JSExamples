@@ -1,9 +1,9 @@
-// event listener
+// event listener and anonymous function
 document.querySelector('#switch-on').addEventListener('click',function () {
-    document.querySelector('#bulb').src = 'https://github.com/mnkant053305/images/blob/master/bulb_on.png'
+    document.querySelector('#bulb').src = '../games/Bulb_On.png'
 });
 
-// anonymous function
+// event listener and anonymous function
 document.querySelector('#switch-off').addEventListener('click',function () {
-    document.querySelector('#bulb').src = 'https://github.com/mnkant053305/images/blob/master/bulb_off.png'
+    document.querySelector('#bulb').src = '../games/Bulb_Off.png'
 });
